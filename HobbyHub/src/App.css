@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Serif, sans-serif;
+  background: url("assets/bg1.png") repeat;
+  background-size: 400px 300px;
+  background-position: center;
+  color: #333;
+  min-height: 100vh;
+}
+
+.content-container {
+  background-color: rgba(255, 255, 255, 0.86);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #007bff; 
+}
+
+textarea, input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.posts, .comments {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-card, .comment-card {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
